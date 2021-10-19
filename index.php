@@ -28,7 +28,7 @@ $url17="https://calimod.vteximg.com.br/arquivos/ids/198286-302-302/2DG62400003_1
 $url18="https://calimod.vteximg.com.br/arquivos/ids/198291-302-302/2DG76900003_1.jpg?v=637521949890470000";
 $url19="https://calimod.vteximg.com.br/arquivos/ids/184456-302-302/2DG44900026_1.jpg?v=637443331461770000";
 $url20="https://calimod.vteximg.com.br/arquivos/ids/209155-302-302/2MN67400002_1-sandalila-liviana-flexible-con-tu-personaje-favorito-para-ninas-color-rosado.jpg?v=637649358831800000";
-
+$botones = array("botones1"=>"IPANEMA","botones2"=>"NUEVOS MODELOS","botones3"=>"COMENTARIOS","botones4"=>"CONTACTANOS");
 
 ?>
 
@@ -80,10 +80,10 @@ http://www.templatemo.com/tm-506-tinker
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#" class="scroll-top">IPANEMA</a></li>
-                        <li><a href="#" class="scroll-link" data-id="about">NUEVOS MODELOS</a></li>
-                        <li><a href="#" class="scroll-link" data-id="testimonial">COMENTARIOS</a></li>
-                        <li><a href="#" class="scroll-link" data-id="contact-us">CONTACTANOS</a></li>
+                        <li><a href="#" class="scroll-top"><?php echo $botones[botones1]?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="about"><?php echo $botones[botones2]?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="testimonial"><?php echo $botones[botones3]?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact-us"><?php echo $botones[botones4]?></a></li>
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
