@@ -1,7 +1,7 @@
 <?php
 $today=date('d/m/y');
 
-$celular="+51941119078";
+$celular=51941119078;
 $Tienda="Comercial";
 $nameTienda="Leslie";
 $last_name="Leslie Elizabeth Vilca Rodo";
