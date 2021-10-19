@@ -376,30 +376,30 @@ http://www.templatemo.com/tm-506-tinker
                     <div id="owl-testimonials" class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="testimonials-item">
-                                <p>“ Ubicado en el sector de Cerrillos, entre las playas Las Cuevas y La Punta. Cuenta con tres piscinas, juegos recreativos y toboganes. ”</p>
-                                <h4>Parque acuatico de Camaná</h4>
-                                <span>otros Atractivos</span>
+                                <p>“ Compre unas sandalias ipanema en comercial leslie y llegaron altoque, 100% confiable el servicio. ”</p>
+                                <h4>LUIS ALBERTO MAMANI</h4>
+                                <span>28 años</span>
                             </div>
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <p>“ Con una superficie total de 5 km2, esta ciudadela presenta elementos culturales chuquibamba e inca. ”</p>
-                                <h4>Ciudadella inca de Pillistay</h4>
-                                <span>otros Atractivos</span>
+                                <p>“ Compre unas sandalias y me regalaron un dulce,  gran servicio el de comercial leslie. ”</p>
+                                <h4>Sandra Canales Canales</h4>
+                                <span>25 años</span>
                             </div>
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <p>“ Ubicadas en la margen derecha del río Camaná. ”</p>
-                                <h4>Lagunas de Pucchún</h4>
-                                <span>otros Atractivos</span>
+                                <p>“ Gran servicio el de comercial Leslie, 100% recomendado ”</p>
+                                <h4>JOSE CARLOS LUNA CHACON</h4>
+                                <span>22 años</span>
                             </div>
                         </div>
                         <div class="item">
                             <div class="testimonials-item">
-                                <p>“ Cuenta con una playa de aguas transparentes y tranquilas, donde es posible realizar actividades de pesca y buceo. ”</p>
-                                <h4>Caleta del Inca</h4>
-                                <span>otros Atractivos</span>
+                                <p>“ Gran calidad la de las sandalias Ipanema y muy buen servicio de comercial leslie. ”</p>
+                                <h4>GIANCARLO AMESQUITA DURANT</h4>
+                                <span>26 años</span>
                             </div>
                         </div>
                     </div>
