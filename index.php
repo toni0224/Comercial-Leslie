@@ -1,12 +1,14 @@
 <?php
 $today=date('d/m/y');
-
+//variable numerica
 $celular=51941119078;
+//variable string
 $Tienda="Comercial";
 $nameTienda="Leslie";
 $last_name="Leslie Elizabeth Vilca Rodo";
 $urlFacebook="https://www.facebook.com/elizabeth.vilcarodo";
 $email="les18lie97@gmail.com";
+//url
 $urlInstagram="https://www.instagram.com/les18lie97/";
 $url1="https://calimod.vteximg.com.br/arquivos/ids/211077-302-302/2IPC2600028_1-sandalia-playera-suave-para-dama-color-beigeamarillo.jpg?v=637667422798170000";
 $url2="https://calimod.vteximg.com.br/arquivos/ids/210865-302-302/2IPA5900019_1-sandalia-playera-con-impresiones-frescas-para-dama-color-negrooro.jpg?v=637666654286370000";
@@ -28,7 +30,14 @@ $url17="https://calimod.vteximg.com.br/arquivos/ids/198286-302-302/2DG62400003_1
 $url18="https://calimod.vteximg.com.br/arquivos/ids/198291-302-302/2DG76900003_1.jpg?v=637521949890470000";
 $url19="https://calimod.vteximg.com.br/arquivos/ids/184456-302-302/2DG44900026_1.jpg?v=637443331461770000";
 $url20="https://calimod.vteximg.com.br/arquivos/ids/209155-302-302/2MN67400002_1-sandalila-liviana-flexible-con-tu-personaje-favorito-para-ninas-color-rosado.jpg?v=637649358831800000";
+//ARREGLO
+$estado = array("DISPONIBLE", "ULTIMOS", "AGOTADOS");
+//ARREGLO CON PROPIEDAD
 $botones = array("botones1"=>"IPANEMA","botones2"=>"NUEVOS MODELOS","botones3"=>"COMENTARIOS","botones4"=>"CONTACTANOS");
+//VARIABLE TIPO OBJETO
+$enfocado = (object)["enfocado1"=>"DAMA","enfocado2"=>"VARON","enfocado3"=>"NIÑOS"];
+
+
 
 ?>
 
@@ -80,10 +89,11 @@ http://www.templatemo.com/tm-506-tinker
                 <!--/.navbar-header-->
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="#" class="scroll-top"><?php echo $botones[botones1]?></a></li>
-                        <li><a href="#" class="scroll-link" data-id="about"><?php echo $botones[botones2]?></a></li>
-                        <li><a href="#" class="scroll-link" data-id="testimonial"><?php echo $botones[botones3]?></a></li>
-                        <li><a href="#" class="scroll-link" data-id="contact-us"><?php echo $botones[botones4]?></a></li>
+                    <li><a href="#" class="scroll-top"><?php echo "$botones[botones1]"?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="about"><?php echo "$botones[botones2]"?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="testimonial"><?php echo "$botones[botones3]"?></a></li>
+                        <li><a href="#" class="scroll-link" data-id="contact-us"><?php echo "$botones[botones4]"?></a></li>
+                    
                     </ul>
                 </div>
                 <!--/.navbar-collapse-->
@@ -118,7 +128,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Beige/amarillo 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                           </div>
@@ -131,7 +142,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Negro/oro 2IPA59</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 38.61</p>
+                        <p>S/ 38.61<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -144,7 +156,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[1]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -157,7 +170,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Negro/beige 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[2]"?></P>                
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -170,7 +184,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -182,7 +197,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[1]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -194,7 +210,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[2]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -206,7 +223,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado1 "?></p>
+                        <P><?php echo "$estado[2]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -218,7 +236,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado2 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -230,7 +249,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado2 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -242,7 +262,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado2 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -254,7 +275,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado2 "?></p>
+                        <P><?php echo "$estado[1]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -267,7 +289,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[2]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -279,7 +302,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -292,7 +316,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[1]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -304,7 +329,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[2]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -318,7 +344,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Beige/amarillo 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                           </div>
@@ -331,7 +358,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Negro/oro 2IPA59</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 38.61</p>
+                        <p>S/ 38.61<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -344,7 +372,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Rosa/azul 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[0]"?></P>
                         <div class="primary-blue-button">
                             <a href="#" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
@@ -357,7 +386,8 @@ http://www.templatemo.com/tm-506-tinker
                         </div>
                         <h4>Sandalia Flip Flop Negro/beige 2IPC26</h4>
                         <div class="line-dec"></div>
-                        <p>S/ 31.50</p>
+                        <p>S/ 31.50<?php echo " $enfocado->enfocado3 "?></p>
+                        <P><?php echo "$estado[2]"?></P>
                         <div class="primary-blue-button">
                             <a href="<?php echo $url20?>" class="scroll-link" data-id="portfolio">ver fotos</a>
                         </div>
